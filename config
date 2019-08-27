@@ -11,7 +11,10 @@ set $up k
 set $down j
 
 # set default desktop layout (default is tiling)
-# workspace_layout tabbed <stacking|tabbed>
+workspace_layout tabbed 
+
+# set the default shell
+set $SHELL /usr/bin/fish
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 new_window pixel 1
