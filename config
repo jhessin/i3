@@ -299,6 +299,7 @@ exec --no-startup-id ~/.config/conky/start_conky
 exec --no-startup-id xautolock -time 10 -locker blacklock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec --no-startup-id synergys
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
